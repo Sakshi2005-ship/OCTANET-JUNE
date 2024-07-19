@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+:root{
+    --text: 1.5rem;
+    --head: calc(1rem + 5vw);
+    --bg-color:#2980b9;
+}
+body{
+    font-family: // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 700
+    
+    .kalnia-glaze-<uniquifier> {
+      font-family: "Kalnia Glaze", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    }
+      ;
+}
+
+.hero-section{
+    min-height: 100vh;
+    background: url(https://t3.ftcdn.net/jpg/05/58/14/66/360_F_558146635_Pjgj1F8Au64JTeB9VGuas0Fm09OhEOGh.jpg);
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+    
+
+    
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 1.5rem;
+    color: white;
+    
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: var(--text);
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white; 
+    border-bottom: 2px solid transparent;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid white;
+
+     
+}
+
+
+.hero-text{
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-text a{
+    color:white;
+    background: var(--bg-color);
+    font-weight: 800;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.9rem;
+    margin: 0.9rem auto;
+    display: block;
+     
+}
+.hero-text a:hover{
+    opacity: 0.8;
+}
+
+.hero-text h2{
+    font-size: var(--head);
+}
+.hero-text p {
+    font-size: 2rem;
+}
